@@ -44,7 +44,7 @@ class App extends Component {
         })
         .catch(error =>
           this.setState({
-            error: error
+            error: "This location is not available"
           })
         );
     } else {
